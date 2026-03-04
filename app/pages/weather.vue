@@ -15,7 +15,7 @@ const fetchWeather = async () => {
   
   try {
     const response = await fetch(
-      `http://api.weatherstack.com/current?access_key=${API_KEY}&query=${city.value}&units=m`
+      `https://api.weatherstack.com/current?access_key=${API_KEY}&query=${city.value}&units=m`
     )
     
     const data = await response.json()

@@ -18,21 +18,21 @@
       
       <div class="projects-grid">
         <div class="project-card">
-          <h3>Project 1</h3>
-          <p>Description of your first project. This could be from another module or a personal project.</p>
-          <span class="tech-tag">Vue.js</span>
+          <h3>Animal Adoption Programs</h3>
+          <p>Project for to help make the animal adoption process easier. Created using java GUIs and access databases</p>
+          <span class="tech-tag">Java and SQL</span>
         </div>
 
         <div class="project-card">
-          <h3>Project 2</h3>
-          <p>Description of your second project. Explain what technologies you used.</p>
-          <span class="tech-tag">Nuxt</span>
+          <h3>Carbon Calculator</h3>
+          <p>Project that won the reigon of Africa, Middle East and Russia for the International Uber Hackathon. A carbon calculator for uber's app make using Java and access databse.</p>
+          <span class="tech-tag">Java and SQL</span>
         </div>
 
         <div class="project-card">
-          <h3>Project 3</h3>
-          <p>Description of your third project. Make sure to list at least three projects.</p>
-          <span class="tech-tag">API Integration</span>
+          <h3>Soap Shop</h3>
+          <p>HTML, Javascript and CSS project for INF164. A website for the sale of different soaps.</p>
+          <span class="tech-tag">HTML, Javascript, CSS</span>
         </div>
       </div>
     </div>
