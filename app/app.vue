@@ -1,9 +1,10 @@
-<script>
+<!-- Chloe Larsen u25004141 -->
+<script setup>
 
 </script>
 
 <template>
   <div>
-    <NuxtLink to="./components/index.vue">home</NuxtLink>
+    <NuxtPage />
   </div>
 </template>
