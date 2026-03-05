@@ -2,7 +2,6 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-// Replace with your actual API key
 const API_KEY = 'e3308efd7b19fcf326ff8aae192fa0f5'
 const weatherData = ref(null)
 const loading = ref(true)
@@ -20,7 +19,6 @@ const fetchWeather = async () => {
     
     const data = await response.json()
     
-    // Check for errors
     if (data.error) {
       throw new Error(data.error.info || 'Weather data not available')
     }
@@ -46,7 +44,7 @@ onMounted(() => {
 <template>
   <div class="weather-widget">
     <div class="weather-header">
-      <h3>🌤️ Current Weather</h3>
+      <h3>Current Weather</h3>
       <div class="city-selector">
         <input 
           v-model="city" 

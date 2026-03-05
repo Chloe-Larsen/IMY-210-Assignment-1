@@ -13,7 +13,7 @@ const refreshCat = () => {
 
 <template>
   <div class="cat-container">
-    <h3>😺 Random Cat</h3>
+    <h3>Random Cat</h3>
     <img :src="catImageUrl" alt="Random cat" class="cat-image" />
     <button @click="refreshCat">Get New Cat</button>
   </div>
