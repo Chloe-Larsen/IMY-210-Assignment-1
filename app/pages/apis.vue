@@ -1,3 +1,4 @@
+<!--Chloe Larsen u25004141-->
 <script setup>
     import WeatherWidget from './weather.vue'  
     import CatFacts from './catFacts.vue';
